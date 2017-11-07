@@ -1,0 +1,14 @@
+According to the Test:
+
+addBack() failed - it add nodes to the front of the list;
+isEmpty() failed - it doesn't return false to an none-empty list, and it returns true all the time;
+removeBack() faild - after removed the size(vector) is the same, so removeBack cannot remove nodes from a list;
+removeFront() faild - after removed the size is the same, so removeFront cannot remove nodes from a list;
+~LinkedListOfInts() faild - it cannot clean the list.
+
+Purpose in the original file:
+isEmpty() only returns true;
+removeFront() cannot remove any node from the list, and always return false no matter the list is empty or not;
+removeBack() cannot remove any node from the list, and always return false no matter the list is empty or not;
+addBack()  adds each element to the front of the list(it looks the same as addFront method);
+~LinkedListOfInts() is the destructor, and it cannot easer all the nodes in the list.
